@@ -1,261 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776927859000,
+    "generated": 1777014333000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 6
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "108 km WNW of Houma, Tonga",
-        "time": 1776925870762,
-        "updated": 1776927008040,
+        "mag": 0.8,
+        "place": "8 km S of Eielson Air Force Base, Alaska",
+        "time": 1777014080731,
+        "updated": 1777014155192,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss90",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ss90.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzzanx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzzanx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ak",
+        "code": "a2026hzzanx",
+        "ids": ",aka2026hzzanx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 148,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 8 km S of Eielson Air Force Base, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.045,
+          64.584,
+          14
+        ]
+      },
+      "id": "aka2026hzzanx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "6 km SW of Volcano, Hawaii",
+        "time": 1777013134590,
+        "updated": 1777013347080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74943147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74943147.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "hv",
+        "code": "74943147",
+        "ids": ",hv74943147,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01124,
+        "rms": 0.109999999,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 6 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.281326293945,
+          19.4039993286133,
+          0.409999996423721
+        ]
+      },
+      "id": "hv74943147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.49,
+        "place": "11 km SSW of Borrego Springs, CA",
+        "time": 1777012976980,
+        "updated": 1777013182620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41233551",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41233551.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41233551",
+        "ids": ",ci41233551,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.08879,
+        "rms": 0.19,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 11 km SSW of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.431666666667,
+          33.1661666666667,
+          7.08
+        ]
+      },
+      "id": "ci41233551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.06,
+        "place": "3 km WNW of Anderson Springs, CA",
+        "time": 1777012493420,
+        "updated": 1777012589834,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75350552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75350552.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75350552",
+        "ids": ",nc75350552,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01275,
+        "rms": 0.03,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 3 km WNW of Anderson Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.721000671387,
+          38.7798347473145,
+          1.45000004768372
+        ]
+      },
+      "id": "nc75350552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.36,
+        "place": "20 km WNW of Progreso, B.C., MX",
+        "time": 1777012137710,
+        "updated": 1777012341622,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41233543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41233543.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "ci",
+        "code": "41233543",
+        "ids": ",ci41233543,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.04866,
+        "rms": 0.17,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 20 km WNW of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.783833333333,
+          32.645,
+          7.5
+        ]
+      },
+      "id": "ci41233543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "3 km S of Pāhala, Hawaii",
+        "time": 1777012016180,
+        "updated": 1777012219920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74943122",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74943122.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "hv",
+        "code": "74943122",
+        "ids": ",hv74943122,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.02845,
+        "rms": 0.129999995,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.483001708984,
+          19.1760005950928,
+          28.4599990844727
+        ]
+      },
+      "id": "hv74943122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "18 km SE of Silver Springs, Nevada",
+        "time": 1777011739545,
+        "updated": 1777013864040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssi7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssi7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 22,
         "net": "us",
-        "code": "6000ss90",
-        "ids": ",us6000ss90,",
+        "code": "6000ssi7",
+        "ids": ",us6000ssi7,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 98,
-        "dmin": 5.957,
-        "rms": 1.13,
-        "gap": 45,
-        "magType": "mww",
+        "nst": 13,
+        "dmin": 0.31,
+        "rms": 0.56,
+        "gap": 84,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.2 - 108 km WNW of Houma, Tonga"
+        "title": "M 1.2 - 18 km SE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.2603,
-          -20.7822,
-          206.451
+          -119.1042,
+          39.2764,
+          10
         ]
       },
-      "id": "us6000ss90"
+      "id": "us6000ssi7"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "9 km NNE of Ridgeway, Alaska",
-        "time": 1776925865648,
-        "updated": 1776925971183,
+        "mag": 1.7,
+        "place": "42 km E of Denali National Park, Alaska",
+        "time": 1777011690117,
+        "updated": 1777013294770,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hychpd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hychpd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzxsfe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzxsfe.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 81,
+        "sig": 44,
         "net": "ak",
-        "code": "a2026hychpd",
-        "ids": ",aka2026hychpd,",
+        "code": "a2026hzxsfe",
+        "ids": ",aka2026hzxsfe,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.7,
-        "rms": 0.6,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 9 km NNE of Ridgeway, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.036,
-          60.615,
-          63.4
-        ]
-      },
-      "id": "aka2026hychpd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "67 km WNW of Beluga, Alaska",
-        "time": 1776925700736,
-        "updated": 1776925891028,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hycffm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hycffm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026hycffm",
-        "ids": ",aka2026hycffm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 67 km WNW of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.217,
-          61.404,
-          124.7
-        ]
-      },
-      "id": "aka2026hycffm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "92 km ESE of King Salmon, Alaska",
-        "time": 1776924828205,
-        "updated": 1776925040317,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hybsrw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hybsrw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026hybsrw",
-        "ids": ",aka2026hybsrw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 115,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 92 km ESE of King Salmon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.261,
-          58.298,
-          2
-        ]
-      },
-      "id": "aka2026hybsrw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.47,
-        "place": "11 km NE of Julian, CA",
-        "time": 1776924450140,
-        "updated": 1776924662514,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41447000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41447000",
-        "ids": ",ci41447000,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.09567,
-        "rms": 0.19,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 11 km NE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.519833333333,
-          33.1511666666667,
-          6.15
-        ]
-      },
-      "id": "ci41447000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "7 km W of Lindsay, Texas",
-        "time": 1776924397259,
-        "updated": 1776924660707,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hybmls",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hybmls.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026hybmls",
-        "ids": ",tx2026hybmls,",
-        "sources": ",tx,",
         "types": ",origin,phase-data,",
         "nst": 20,
-        "dmin": 0,
+        "dmin": 0.6,
         "rms": 0.6,
-        "gap": 76,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 7 km W of Lindsay, Texas"
+        "title": "M 1.7 - 42 km E of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.618,
-          31.361,
-          5.7512
+          -150.863,
+          63.546,
+          0.8
         ]
       },
-      "id": "tx2026hybmls"
+      "id": "aka2026hzxsfe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.17,
+        "place": "6 km W of Muscoy, CA",
+        "time": 1777011053610,
+        "updated": 1777011260435,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41233535",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41233535.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "ci",
+        "code": "41233535",
+        "ids": ",ci41233535,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 79,
+        "dmin": 0.05975,
+        "rms": 0.19,
+        "gap": 23,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 6 km W of Muscoy, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.413666666667,
+          34.1601666666667,
+          10.23
+        ]
+      },
+      "id": "ci41233535"
     }
   ],
   "bbox": [
-    -176.2603,
-    -20.7822,
-    2,
-    -103.618,
-    61.404,
-    206.451
+    -155.48300170898,
+    19.176000595093,
+    0.40999999642372,
+    -115.78383333333,
+    64.584,
+    28.459999084473
   ]
 }
