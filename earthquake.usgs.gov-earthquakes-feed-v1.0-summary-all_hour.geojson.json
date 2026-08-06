@@ -1,341 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785914305000,
+    "generated": 1786007719000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 8
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "2 km N of The Geysers, CA",
-        "time": 1785913803500,
-        "updated": 1785913900988,
+        "mag": 1.7,
+        "place": "31 km S of Malaga, New Mexico",
+        "time": 1786006680771,
+        "updated": 1786007134605,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411652",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411652.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pjahud",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pjahud.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75411652",
-        "ids": ",nc75411652,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.00612,
-        "rms": 0.03,
-        "gap": 72,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km N of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.759498596191,
-          38.7944984436035,
-          0.759999990463257
-        ]
-      },
-      "id": "nc75411652"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1785912958980,
-        "updated": 1785913055776,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411647.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "nc",
-        "code": "75411647",
-        "ids": ",nc75411647,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.05672,
-        "rms": 0.06,
-        "gap": 82,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 8 km ESE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.942337036133,
-          38.7706680297852,
-          4.23000001907349
-        ]
-      },
-      "id": "nc75411647"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "25 km ESE of Eagle River, Alaska",
-        "time": 1785912554259,
-        "updated": 1785912611585,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pjmjpi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pjmjpi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "a2026pjmjpi",
-        "ids": ",aka2026pjmjpi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 104,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 25 km ESE of Eagle River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.145,
-          61.209,
-          25.2
-        ]
-      },
-      "id": "aka2026pjmjpi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.12,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1785912552450,
-        "updated": 1785912651768,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411642",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411642.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75411642",
-        "ids": ",nc75411642,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.07452,
-        "rms": 0.04,
-        "gap": 124,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.941833496094,
-          38.7686653137207,
-          3.32999992370605
-        ]
-      },
-      "id": "nc75411642"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "3 km SSW of Anderson Springs, CA",
-        "time": 1785912304900,
-        "updated": 1785912401786,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411637",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411637.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "nc",
-        "code": "75411637",
-        "ids": ",nc75411637,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.02332,
-        "rms": 0.01,
-        "gap": 142,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km SSW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.700332641602,
-          38.7448348999023,
-          1.3400000333786
-        ]
-      },
-      "id": "nc75411637"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Auckland Islands, New Zealand region",
-        "time": 1785912264701,
-        "updated": 1785913760040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti85",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ti85.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000ti85",
-        "ids": ",us6000ti85,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 97,
-        "dmin": 3.759,
-        "rms": 0.96,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - Auckland Islands, New Zealand region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          164.0845,
-          -49.5336,
-          21.906
-        ]
-      },
-      "id": "us6000ti85"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.32,
-        "place": "10 km ENE of Cloverdale, CA",
-        "time": 1785910976620,
-        "updated": 1785911071425,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411632",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411632.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75411632",
-        "ids": ",nc75411632,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.019,
-        "rms": 0.02,
-        "gap": 156,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 10 km ENE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.903831481934,
-          38.8278350830078,
-          3.41000008583069
-        ]
-      },
-      "id": "nc75411632"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1785910783444,
-        "updated": 1785913230999,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pgzliw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pgzliw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
+        "sig": 44,
         "net": "tx",
-        "code": "2026pgzliw",
-        "ids": ",tx2026pgzliw,",
+        "code": "2026pjahud",
+        "ids": ",tx2026pjahud,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 9,
+        "nst": 33,
         "dmin": 0,
-        "rms": 0.6,
-        "gap": 79,
+        "rms": 0.3,
+        "gap": 191,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 54 km S of Whites City, New Mexico"
+        "title": "M 1.7 - 31 km S of Malaga, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.482,
-          31.688,
-          12.307
+          -104.067,
+          31.939,
+          4.8849
         ]
       },
-      "id": "tx2026pgzliw"
+      "id": "tx2026pjahud"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "23 km SE of Lindsay, Texas",
+        "time": 1786006011361,
+        "updated": 1786006134304,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pjaazs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pjaazs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2026pjaazs",
+        "ids": ",tx2026pjaazs,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 1.1,
+        "gap": 156,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 23 km SE of Lindsay, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.38,
+          31.206,
+          0
+        ]
+      },
+      "id": "tx2026pjaazs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.28,
+        "place": "4 km W of Cobb, CA",
+        "time": 1786004858360,
+        "updated": 1786004953152,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75412447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75412447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75412447",
+        "ids": ",nc75412447,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.01049,
+        "rms": 0.04,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 4 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.763664245605,
+          38.8211669921875,
+          2.45000004768372
+        ]
+      },
+      "id": "nc75412447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1786004264545,
+        "updated": 1786004488425,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pizbxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pizbxl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "tx",
+        "code": "2026pizbxl",
+        "ids": ",tx2026pizbxl,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.463,
+          31.631,
+          2.9769
+        ]
+      },
+      "id": "tx2026pizbxl"
     }
   ],
   "bbox": [
-    -149.145,
-    -49.5336,
-    0.75999999046326,
-    164.0845,
-    61.209,
-    25.2
+    -122.7636642456,
+    31.206,
+    0,
+    -103.38,
+    38.821166992188,
+    4.8849
   ]
 }
