@@ -1,104 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789645958000,
+    "generated": 1789730921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.62,
-        "place": "8 km SSW of Idyllwild, CA",
-        "time": 1789644775870,
-        "updated": 1789644987128,
+        "mag": 0.78,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1789730633540,
+        "updated": 1789730730941,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41334071",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41334071.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41334071",
-        "ids": ",ci41334071,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.06565,
-        "rms": 0.16,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 8 km SSW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7525,
-          33.6705,
-          15.22
-        ]
-      },
-      "id": "ci41334071"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1789644161640,
-        "updated": 1789645644984,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437162",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437162.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75437162",
-        "ids": ",nc75437162,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.00476,
-        "rms": 0.02,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81600189209,
-          38.8245010375977,
-          1.87999999523163
-        ]
-      },
-      "id": "nc75437162"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1789643701290,
-        "updated": 1789645042919,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437157",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437157.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437747",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437747.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -107,38 +27,238 @@
         "tsunami": 0,
         "sig": 9,
         "net": "nc",
-        "code": "75437157",
-        "ids": ",nc75437157,",
+        "code": "75437747",
+        "ids": ",nc75437747,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 8,
-        "dmin": 0.009676,
-        "rms": 0.04,
-        "gap": 116,
+        "dmin": 0.004904,
+        "rms": 0.06,
+        "gap": 191,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
+        "title": "M 0.8 - 6 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.801170349121,
-          38.8165016174316,
-          -0.0500000007450581
+          -122.790168762207,
+          38.8334999084473,
+          13.1199998855591
         ]
       },
-      "id": "nc75437157"
+      "id": "nc75437747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.81,
+        "place": "4 km S of Pāhala, Hawaii",
+        "time": 1789730392800,
+        "updated": 1789730868040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75039357",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75039357.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "hv",
+        "code": "75039357",
+        "ids": ",us7000ti92,hv75039357,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.02453,
+        "rms": 0.230000004,
+        "gap": 112,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 4 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.48616027832,
+          19.1646671295166,
+          10.2299995422363
+        ]
+      },
+      "id": "hv75039357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.44,
+        "place": "22 km NW of Parkfield, CA",
+        "time": 1789730367190,
+        "updated": 1789730466102,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437742",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437742.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "nc",
+        "code": "75437742",
+        "ids": ",nc75437742,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.0296,
+        "rms": 0.06,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 22 km NW of Parkfield, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.601829528809,
+          36.0395011901855,
+          2.83999991416931
+        ]
+      },
+      "id": "nc75437742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "2 km E of Winchester, CA",
+        "time": 1789730345190,
+        "updated": 1789730545703,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41334447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41334447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41334447",
+        "ids": ",ci41334447,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.05361,
+        "rms": 0.17,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 2 km E of Winchester, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.065833333333,
+          33.7086666666667,
+          11.29
+        ]
+      },
+      "id": "ci41334447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "17 km SSE of Ackerly, Texas",
+        "time": 1789729238033,
+        "updated": 1789729543162,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026skcpgy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026skcpgy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "tx",
+        "code": "2026skcpgy",
+        "ids": ",tx2026skcpgy,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 17 km SSE of Ackerly, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.614,
+          32.39,
+          2.7079
+        ]
+      },
+      "id": "tx2026skcpgy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "70 km SSW of Kaktovik, Alaska",
+        "time": 1789728287453,
+        "updated": 1789728498573,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026snbevo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026snbevo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026snbevo",
+        "ids": ",aka2026snbevo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 70 km SSW of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.206,
+          69.529,
+          2.4
+        ]
+      },
+      "id": "aka2026snbevo"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.8,
-        "place": "63 km N of Chickaloon, Alaska",
-        "time": 1789642988044,
-        "updated": 1789643119353,
+        "place": "7 km W of Saint Helena, CA",
+        "time": 1789727729270,
+        "updated": 1789729043278,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026slfuem",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026slfuem.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437732",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437732.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,36 +266,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 50,
-        "net": "ak",
-        "code": "a2026slfuem",
-        "ids": ",aka2026slfuem,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.6,
-        "rms": 0.8,
-        "gap": 66,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75437732",
+        "ids": ",nc75437732,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.1251,
+        "rms": 0.09,
+        "gap": 41,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 63 km N of Chickaloon, Alaska"
+        "title": "M 1.8 - 7 km W of Saint Helena, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.236,
-          62.358,
-          21
+          -122.547836303711,
+          38.4946670532227,
+          8.5600004196167
         ]
       },
-      "id": "aka2026slfuem"
+      "id": "nc75437732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "70 km SSW of Kaktovik, Alaska",
+        "time": 1789727675285,
+        "updated": 1789728469040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026snavuk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026snavuk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "a2026snavuk",
+        "ids": ",us7000ti8w,aka2026snavuk,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 0.2,
+        "rms": 1.2,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 70 km SSW of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.182,
+          69.531,
+          2.7
+        ]
+      },
+      "id": "aka2026snavuk"
     }
   ],
   "bbox": [
-    -148.236,
-    33.6705,
-    -0.050000000745058,
-    -116.7525,
-    62.358,
-    21
+    -155.48616027832,
+    19.164667129517,
+    2.4,
+    -101.614,
+    69.531,
+    13.119999885559
   ]
 }
